@@ -23,20 +23,12 @@ Add tighter checks on:
 futures price range sanity
 blank accidental rows
 non-integer OI handling warnings
-4. README and run instructions
 
-Document:
-
-folder layout
-required sheet tabs
-how to run
-expected data format
-common error fixes
-5. Optional historical logging
+4. Optional historical logging
 
 Not necessary immediately, but useful later:
 
 append each summary run to a historical tab or CSV
 
-charting / visual enhancements if you still want them
+5. charting / visual enhancements if you still want them
 
