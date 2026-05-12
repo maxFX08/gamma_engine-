@@ -1,0 +1,42 @@
+this so far is just phase 1 to get it up and running. i plan to add more feature. 
+
+1. Better terminal diagnostics
+
+Add clearer warnings such as:
+
+zero OI rows
+zero gamma rows
+unexpected delta signs
+count of strikes with call-only / put-only presence
+2. More readable terminal summary
+
+For example:
+
+top 3 positive net GEX strikes
+top 3 negative net GEX strikes
+largest call GEX strikes
+largest put GEX strikes
+3. Safer config checks
+
+Add tighter checks on:
+
+futures price range sanity
+blank accidental rows
+non-integer OI handling warnings
+4. README and run instructions
+
+Document:
+
+folder layout
+required sheet tabs
+how to run
+expected data format
+common error fixes
+5. Optional historical logging
+
+Not necessary immediately, but useful later:
+
+append each summary run to a historical tab or CSV
+
+charting / visual enhancements if you still want them
+
